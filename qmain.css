@@ -1,0 +1,231 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body
+{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+.left{
+    position: relative;
+    width: 13%;
+    height: 88%;
+    background: transparent;
+    padding: 1%;
+    z-index: 1;
+}
+.lpane{
+    font-family: 'Roboto', sans-serif;
+ 	font-size: 17px;
+ 	margin-left: 2px;
+ 	background: grey;
+    border-radius: 25%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+ 	word-spacing: 10%;
+ 	cursor: pointer;
+ }
+.lpane:hover {
+ 	border-radius: 50%;
+    background-color: #008CBA;
+    color: black;
+    transition-duration: 0.4s;
+} 
+.botnav
+{
+	float: left;
+    background-color: transparent;
+    bottom: 5vh;
+}
+.nn{
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+    border: none;
+    border-radius: 25%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    padding: 1% 0%;
+    margin:0.25rem;
+    min-height: 4rem;
+    min-width:4.5rem;
+    cursor: pointer;
+}
+.nn1{
+    float: right;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+    border: none;
+    border-radius: 25%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    padding: 1% 0%;
+    margin:0.25rem;
+    min-height: 4rem;
+    min-width:6rem;
+    cursor: pointer;
+    margin-right: 10%;
+}
+button{
+    font-weight: bold;
+    border: none;
+    border-radius: 25%;
+    padding: 0.9rem 0;
+    margin:0.25rem;
+    min-height: 3rem;
+    min-width:3rem;
+    cursor: pointer;
+}
+#prev, #next{
+	background: #4CAF50;
+}
+#prev:hover {
+    background-color: #00ff00;
+    color: black;
+    transition-duration: 0.4s;
+}
+#next:hover {
+    background-color: #00ff00;
+    color: black;
+    transition-duration: 0.4s;
+}
+/*for mark button*/
+#mark{
+	background:#FF8000;
+	color: black;
+}
+#mark:hover {
+    background-color: rgb(255, 153, 0);
+    color: black;
+    transition-duration: 0.4s;
+}
+/*for submit button*/
+#sub{
+	background:#008CBA;
+	color: black;
+	
+}
+#sub:hover {
+	background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+.nav
+{
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+	color:red;
+    background: #000;
+    height:10%;
+    width: 100%;
+}
+.nav span
+{
+    padding:0.5em;
+    position:absolute;
+    color:white;
+    right:2.8em;
+    font-size:2em;
+}
+.container
+{
+    background-color: #f1f1f1;
+    height: 86%;
+    width: 81%;
+    position: absolute;
+    padding: 2%;
+    left: 15%;
+    top: 10%;
+}
+.qblock{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 85%;
+    border: 10px solid #FFFFFF;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding:1rem;
+}
+tr{
+    font-weight: bold;
+}
+tr.shuff{
+    font-weight: 500;
+}
+.blank_row{
+    height: 10px;
+    background-color: #FFFFFF;
+}
+#time
+{
+	position:absolute;
+	right:0;
+	color:white;
+}
+/* for next button*/
+#next span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+  }
+#next span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.2s;
+}
+  
+#next:hover span {
+    padding-right: 25px;
+    transition-duration: 0.2s;
+}
+  
+#next:hover span:after {
+    opacity: 1;
+    right: 0;
+    transition-duration: 0.2s;
+}
+/*for previous button*/
+#prev span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+}
+  
+#prev span:before {
+    content: '\00AB';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.2s;
+}
+  
+#prev:hover span {
+    padding-left:20px;
+    transition-duration: 0.2s;
+}
+  
+#prev:hover span:before{
+    opacity: 1;
+    left: 0;
+    transition-duration: 0.2s;
+}
+#legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    margin-left: 0;
+    border: 1px solid #999;
+}

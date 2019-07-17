@@ -1,0 +1,201 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image:url(https://backgroundcheckall.com/wp-content/uploads/2017/12/technical-background-images-for-websites-3.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    padding: 0.25%;
+    vertical-align: middle;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    background-color: #000;
+}
+#userimg{
+    font-size: 35px;
+    color: white;
+}
+a{
+    font-size: 30px;    
+    text-decoration: none;
+    color: red;
+}
+#lbutton{
+    float: right;
+}
+.rest{
+    background: #000;
+}
+.container {
+	background-color: #d6d6d6;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    position: absolute;
+    height: 75%;
+    top: 15%;
+    width: 70%;
+    left: 15%;
+}
+#left{
+    background-color:black;
+    border-radius: 10px 0px 0px 10px;
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+#tab{
+    margin: 6% 0% 0% 0%;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+button{
+    background-color: #eee;
+	display: inline-block;
+    border: none;
+    border-radius: 25rem;
+    padding: 0.9em 2em;
+    width: 75%;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+ul{
+    list-style: disc;
+    list-style-position: inside;
+}
+#welcome{
+    position: absolute;
+    left: 25%;
+    z-index: 1;
+}
+#tests{
+    position: absolute;
+    width: 75%;
+    left: 25%;
+    z-index: -1;
+}
+#scores{
+    left: 25%;
+    height: 100%;
+    position: absolute;
+    width: 70%;
+    z-index: -1;
+}
+#t1,#t2{
+    background-color: grey;
+    float: right;
+    line-height: 1.5em;
+    margin-right: 5%;
+    width: 20%;
+}
+#sub-container{
+    background-color: #eee;
+    padding-left: 5%;
+    line-height: 2.6em;
+    border: none;
+    border-radius: 20px;
+    width: 90%;
+}
+.tab1{
+    top:50%;
+    position:absolute;
+    height: 30%;
+    display: block;
+    background-color: #eee;
+    border: none;
+    scrollbar-color: #888 #dbdad4;
+    scrollbar-width: thin;
+    text-align: center;
+    overflow-y: auto;
+    border-collapse: collapse;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.tab1 th{
+    padding: 0em 2em;
+    background-color: #000;
+    color: white;
+    font-size: 1.3em;
+}
+.tab1 tr:nth-child(odd) {
+    background: #d4d1d1;
+} 
+.tab1 tr:nth-child(even) {
+    background: #eee;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #dbdad4; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+#hidden1_1{
+    display:none;
+    /* max-height: 20%; */
+    width: 70%;
+}
+#hidden1_2{
+    display:none;
+    /* max-height: 20%; */
+    width: 70%;
+}
+#hidden2_1{
+    display:none;
+    /* max-height: 20%; */
+    width: 70%;
+}
+#hidden2_2{
+    display:none;
+    /* max-height: 20%; */
+    width: 70%;
+}
+#piechart,#piechart1,#piechart2,#piechart3{
+    top:25%;
+    position: absolute;
+    display: block;
+    right: -5%;
+}
+#te1{
+    position :relative;
+    top:5%;
+    background-color: #eee;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+#te2{
+    z-index: 2;
+    position :relative;
+    background-color: #eee;
+    border: none;
+    border-radius: 10px;
+    top:10%;
+}
+#te1 button{
+    background-color: #888;
+    text-align: center;
+    /* padding: 0em; */
+    padding: 0.9em 0em;
+}
+#te2 button{
+    background-color: #888;
+    text-align: center;
+    /* padding: 0em; */
+    padding: 0.9em 0em;
+}
